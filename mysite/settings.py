@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o*mb^jfwfw10e9qmwlmhh0(ydy!jg_p*a@v3+r!7@^3%#!31t1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.pythonanywhere.com','localhost']
+ALLOWED_HOSTS = ['.pythonanywhere.com','localhost','billboardplay.herokuapp.com']
 
 
 # Application definition
@@ -132,5 +132,5 @@ STATIC_ROOT=BASE_DIR / 'static'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000'
+     'http://localhost:3000','.netlify.com'
 ]
