@@ -132,7 +132,7 @@ STATIC_ROOT=BASE_DIR / 'static'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL = True
-CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000',
-     'https://qmusic.netlify.app'
-]
+#CORS_ORIGIN_WHITELIST = [
+    # 'http://localhost:4000',
+#     'https://qmusic.netlify.app'
+#]
