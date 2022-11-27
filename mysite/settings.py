@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o*mb^jfwfw10e9qmwlmhh0(ydy!jg_p*a@v3+r!7@^3%#!31t1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.pythonanywhere.com','localhost','billboardplay.herokuapp.com']
+ALLOWED_HOSTS = ['qbackend.onrender.com', '.pythonanywhere.com','localhost','billboardplay.herokuapp.com']
 
 
 # Application definition
